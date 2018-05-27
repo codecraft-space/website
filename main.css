@@ -26,13 +26,12 @@ a {
 .sectionHome .animation {
     position: absolute;
     width: auto;
-    z-index: 1;
 }
 
 .sectionHome .animation-left {
     position: absolute;
     width: auto;
-    height: 25vh;
+    height: 25vw;
     bottom: 10vh;
     animation: animation-left 0.5s forwards;
 }
@@ -62,7 +61,7 @@ a {
 
 @keyframes animation-right {
     0% {
-            position: absolute;
+        position: absolute;
         opacity: 0;
         right: -200px;
     }
@@ -74,7 +73,6 @@ a {
         right: 1vw;
     }
 }
-
 
 .sectionHome .header {
     display: flex;
@@ -125,6 +123,12 @@ a {
     margin: 0;
 }
 
+h4 {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    font-size: 60px;
+}
+
 
 .sectionHome a.button {
     display: flex;
@@ -162,3 +166,54 @@ a {
 .sectionHome .social img {
     width: 30px;
 }
+
+.sectionIdea {
+    padding: 40px;
+}
+
+.sectionIdea p {
+    max-width: 990px;
+    font-family: Lato;
+    font-size: 25px;
+    line-height: 1.46;
+}
+
+.sectionProwadzacy {
+    padding: 40px;
+    background-color: #fafafb;
+}
+
+.sectionProwadzacy p {
+    max-width: 990px;
+    font-family: Lato;
+    font-size: 25px;
+    line-height: 1.46;
+}
+
+.sectionKontakt {
+    font-family: Lato;
+    padding: 40px;
+    background-color: #e6f7ca;
+    color: #494949;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionKontakt .email {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sectionKontakt .address {
+    font-size: 30px;
+}
+
+
+.sectionMap {
+    height: 300px;
+}
+
+
