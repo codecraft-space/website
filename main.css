@@ -11,7 +11,7 @@ a {
 .sectionHome {
     background:
     linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
-    url(images/tild6639-6461-4339-a633-666234613965__minecraft-669310_128.jpg);
+    url(images/background.jpg);
 
     height: 100vh;
     background-position: center center;
@@ -34,7 +34,7 @@ a {
     .sectionHome {
         background-image:
         linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-        url(images/tild6639-6461-4339-a633-666234613965__minecraft-669310_128.jpg);
+        url(images/background.jpg);
     }
 }
 
