@@ -22,6 +22,15 @@ a {
     position: relative;
 }
 
+@media only screen and (max-width: 375px) {
+    .sectionHome {
+        background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url(images/tild6639-6461-4339-a633-666234613965__minecraft-669310_128.jpg);
+    }
+}
+
+
 .sectionHome .animation {
     position: absolute;
     width: auto;
@@ -179,7 +188,7 @@ h4 {
 .sectionHome .info {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     color: #fff;
     font-size: 20px;    
     justify-content: center;
