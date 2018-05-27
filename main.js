@@ -174,7 +174,7 @@ function initMap() {
     var center = {lat: 50.04845, lng: 19.96010};
     map = new google.maps.Map(document.querySelector('.sectionMap'), {
         center: center,
-        zoom: 15,
+        zoom: 16,
         styles: theme,
         mapTypeControl: false,
         streetViewControl: false,
