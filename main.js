@@ -178,7 +178,8 @@ function initMap() {
         styles: theme,
         mapTypeControl: false,
         streetViewControl: false,
-        fullscreenControl: false
+        fullscreenControl: false,
+        gestureHandling: 'greedy'
     });
 
     var marker = new google.maps.Marker({
