@@ -127,7 +127,7 @@ a {
 h4 {
     font-family: 'Inconsolata', monospace;
     margin: 0;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 
@@ -213,6 +213,26 @@ h4 {
     font-size: 15px;
     font-weight: 300;
 }
+
+
+.sectionPytania {
+    font-family: Lato;
+    padding: 40px;
+}
+
+.sectionPytania dt {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.sectionPytania dd {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+
+
 
 .sectionKontakt {
     font-family: Lato;
