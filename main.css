@@ -83,8 +83,9 @@ a {
 .sectionHome .header a {
     color: #fff;
     font-family: 'Inconsolata', monospace;
-    font-size: 30px;
+    font-size: 28px;
     margin-right: 30px;
+    font-weight: 600;
 }
 
 
@@ -174,7 +175,7 @@ h4 {
 .sectionIdea p {
     max-width: 990px;
     font-family: Lato;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.46;
 }
 
@@ -183,11 +184,34 @@ h4 {
     background-color: #fafafb;
 }
 
-.sectionProwadzacy p {
-    max-width: 990px;
+.sectionProwadzacy .heads {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -20px -10px -20px;
+
+}
+
+.sectionProwadzacy .head {
+    flex: 0 0 180px;
+    margin: 0 20px 30px 20px;
+}
+
+.sectionProwadzacy .head img {
+    width: 100%;
+}
+
+.sectionProwadzacy .head .bio {
     font-family: Lato;
-    font-size: 25px;
-    line-height: 1.46;
+}
+
+.sectionProwadzacy .head .bio .name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.sectionProwadzacy .head .bio .sub {
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .sectionKontakt {
