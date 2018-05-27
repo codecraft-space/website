@@ -169,6 +169,7 @@ h4 {
 
 
 .sectionHome a.button {
+    box-shadow: -1px 13px 23px -5px rgba(0,0,0,0.75);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,6 +185,16 @@ h4 {
     margin: 0 0 40px 0;
     display: flex;
     flex-direction: column;
+    transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out;    
+}
+
+.sectionHome a.button:hover {
+    background-color: #ecd108;
+}
+
+.sectionHome a.button:active {
+    box-shadow: -1px 13px 23px -5px rgba(0,0,0,0);
+    transform: translateY(3px);
 }
 
 .sectionHome small {
