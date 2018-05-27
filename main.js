@@ -183,7 +183,7 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        icon: 'images_v2/internet.png',
+        icon: 'images/internet.png',
         position: center,
         title:"Hello World!"
     });
