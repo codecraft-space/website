@@ -22,6 +22,14 @@ a {
     position: relative;
 }
 
+.sectionHome.regulamin {
+    height: auto
+}
+
+.sectionHome.polityka {
+    height: auto
+}
+
 @media only screen and (max-width: 375px) {
     .sectionHome {
         background-image:
@@ -234,6 +242,12 @@ h4 {
     font-size: 18px;
     line-height: 1.46;
 }
+
+.sectionRegulamin {
+    padding: 40px;
+    max-width: 990px;
+}
+
 
 .sectionProwadzacy {
     padding: 40px;
