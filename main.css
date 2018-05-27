@@ -1,0 +1,164 @@
+
+body {
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sectionHome {
+    background:
+    linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
+    url(images/tild6639-6461-4339-a633-666234613965__minecraft-669310_128.jpg);
+
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.sectionHome .animation {
+    position: absolute;
+    width: auto;
+    z-index: 1;
+}
+
+.sectionHome .animation-left {
+    position: absolute;
+    width: auto;
+    height: 25vh;
+    bottom: 10vh;
+    animation: animation-left 0.5s forwards;
+}
+
+@keyframes animation-left {
+    0% {
+        position: absolute;
+        opacity: 0;
+        left: -200px;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+        left: 5vh;
+    }
+}
+
+.sectionHome .animation-right {
+    position: absolute;
+    width: auto;
+    height: 25vw;
+    top: 10vh;
+    animation: animation-right 0.5s forwards;
+}
+
+@keyframes animation-right {
+    0% {
+            position: absolute;
+        opacity: 0;
+        right: -200px;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+        right: 1vw;
+    }
+}
+
+
+.sectionHome .header {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.sectionHome .header a {
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+
+.sectionHome .content {
+    padding: 0 20px;
+    max-width: 900px;
+    width: 100%;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionHome h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 56px;
+    color: #fff;
+    margin: 0;
+}
+
+.sectionHome h2 {
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+    margin: 0;
+}
+
+
+.sectionHome h3 {
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+    margin: 0;
+}
+
+
+.sectionHome a.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 55px;
+    width: 300px;
+
+    color: #050505;
+    font-size: 23px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+    border-radius: 1px;
+    background-color: #ffae00;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+}
+
+.sectionHome .info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionHome .info img {
+    width: 40px;
+}
+
+.sectionHome .info {
+    display: flex;
+}
+
+.sectionHome .social img {
+    width: 30px;
+}
