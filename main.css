@@ -347,10 +347,39 @@ h4 {
     
 }
 
-
-
 .sectionMap {
     height: 300px;
 }
 
+footer {
+    font-family: 'Rubik', sans-serif;
+    background: #000000;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
 
+
+footer a {
+    color: #c8c8c8;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+footer a.email {
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 375px) {
+    footer {
+        flex-direction: column;
+    }
+    footer a {
+        margin: 0 0 10px 5px;
+    }
+    
+    footer a.email {
+        margin: 0 0 10px 5px;
+    }
+}
