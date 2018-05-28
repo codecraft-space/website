@@ -249,7 +249,7 @@ h4 {
 
 .sectionIdea p {
     max-width: 990px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 1.46;
 }
@@ -282,7 +282,7 @@ h4 {
 }
 
 .sectionProwadzacy .head .bio {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .sectionProwadzacy .head .bio .name {
@@ -297,25 +297,27 @@ h4 {
 
 
 .sectionPytania {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 40px;
 }
 
 .sectionPytania dt {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     margin-top: 30px;
 }
 
 .sectionPytania dd {
+    font-weight: 300;
     font-size: 16px;
     margin: 0 0 10px 0;
+    line-height: 1.6;
 }
 
 
 
 .sectionKontakt {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 40px;
     background-color: #e6f7ca;
     color: #494949;
