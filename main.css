@@ -25,7 +25,7 @@ a {
 
 pre {
     color: #fff;
-    background: #000;
+    background: #2e2e2e;
     margin: 0;
     font-family: 'Inconsolata', monospace;
     
@@ -34,12 +34,16 @@ pre {
     font-size: 27px;
 }
 
+pre span {
+    font-weight: 600;
+}
+    
 pre span.keyword {
     color: #6cdd5b;
 }
 
 pre span.number {
-    color: #6cd d5b;
+    color: #fe5555;
 }
 
 
