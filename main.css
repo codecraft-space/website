@@ -8,6 +8,41 @@ a {
     text-decoration: none;
 }
 
+.sectionCode {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sectionCode pre {
+    flex: 1 0 auto;
+}
+
+.sectionCode img {
+    flex: 1 0 105px;
+    max-height: 330px;
+    object-fit: cover;
+}
+
+
+pre {
+    color: #fff;
+    background: #000;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    
+    padding: 40px;
+    
+    font-size: 27px;
+}
+
+pre span.keyword {
+    color: #6cdd5b;
+}
+
+pre span.number {
+    color: #6cd d5b;
+}
+
+
 .sectionHome {
     background:
     linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
