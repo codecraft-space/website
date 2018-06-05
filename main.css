@@ -36,6 +36,28 @@ a {
     background: #1a1a1a;
 }
 
+.sectionSponsors {
+    padding: 0px 40px 20px 40px;
+}
+
+
+.sectionSponsors .content {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.sectionSponsors p {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.sectionSponsors .content img {
+    height: 100%;
+    width: 332px;
+}
+
 
 pre {
     color: #fff;
@@ -312,10 +334,8 @@ h4 {
     max-width: 990px;
 }
 
-
 .sectionProwadzacy {
     padding: 40px;
-    background-color: #fafafb;
 }
 
 .sectionProwadzacy .heads {
@@ -352,6 +372,7 @@ h4 {
 .sectionPytania {
     font-family: 'Rubik', sans-serif;
     padding: 40px;
+    background-color: #fafafb;
 }
 
 .sectionPytania dt {
