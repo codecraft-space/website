@@ -243,7 +243,7 @@ h4 {
 }
 
 
-.sectionHome a.button {
+.sectionHome .button {
     box-shadow: -1px 13px 23px -5px rgba(0,0,0,0.75);
     display: flex;
     align-items: center;
