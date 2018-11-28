@@ -48,13 +48,21 @@ a {
 
 .sectionSponsors a {
     margin: 15px 10px 0 15px;
-    flex: 1 0 300px;
-    max-width: 350px;
+    flex: 0 0 280px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sectionSponsors img {
-    width: 100%;
+    height: 100%;
 }
+
+.sectionSponsors .flyr img {
+    height: 80%;
+}
+
 
 .sectionSponsors .label {
     font-family: 'Rubik', sans-serif;
