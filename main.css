@@ -286,6 +286,11 @@ h4 {
     transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
 
+.sectionHome .button.disabled {
+    box-shadow: unset;
+    background-color: #a7a7a7;
+}
+
 .sectionHome a.button:hover {
     background-color: #ecd108;
 }
