@@ -8,6 +8,55 @@ a {
     text-decoration: none;
 }
 
+div.newsletter {
+    min-width: 250px;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+div.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+div.newsletter form h2 {
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 0px;
+    font-size: 33px;
+}
+
+div.newsletter form p {
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+div.newsletter input {
+    flex: 0 0 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+div.newsletter input {
+    flex: 0 0 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+div.newsletter .button {
+    flex: 0 0 40px;
+    font-size: 16px;
+    border: none;
+}
+
 .sectionCode {
     display: flex;
     flex-wrap: wrap;
@@ -267,6 +316,7 @@ h4 {
 
 
 .sectionHome .button {
+    cursor: pointer;
     box-shadow: -1px 13px 23px -5px rgba(0,0,0,0.75);
     display: flex;
     align-items: center;
