@@ -85,13 +85,21 @@ div.newsletter .button {
 }
 
 .sectionSponsors {
+    margin-top: 20px;
     padding: 0px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionSponsors h4 {
+    font-size: 25px;
 }
 
 .sectionSponsors .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .sectionSponsors a {
